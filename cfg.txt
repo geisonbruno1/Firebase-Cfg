@@ -1,0 +1,26 @@
+FirebaseMessageHandler.kt
+
+Build.gradle (:app){
+	plugins;
+	// Firebase;
+	
+}
+
+SipMananger.kt{
+	import com.google.firebase.messaging.FirebaseMessaging
+	init()->FirebaseMessaging;
+	addAccount() add inteira
+	register();
+}
+
+PrefUtil{
+	FIREBASE_TOKEN
+	ENABLE_PROXY
+	PUSHSWITCH
+
+	+geters and seters
+}
+
+SettingsFragmentes.tk{
+	add os switchs. ipv6 + push (lembre de add nas strings)
+}
